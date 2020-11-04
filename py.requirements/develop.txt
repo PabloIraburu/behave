@@ -3,7 +3,7 @@
 # ============================================================================
 
 # -- BUILD-TOOL:
-invoke == 1.4.1
+invoke==1.4.1
 pathlib;    python_version <= '3.4'
 pycmd
 
@@ -13,19 +13,19 @@ path >= 13.1.0;    python_version >= '3.5'
 
 # -- CONFIGURATION MANAGEMENT (helpers):
 # FORMER: bumpversion >= 0.4.0
-bump2version >= 0.5.6
+bump2version==1.0.1
 
 # -- RELEASE MANAGEMENT: Push package to pypi.
-twine >= 1.13.0
+twine==3.2.0
 
 # -- DEVELOPMENT SUPPORT:
-tox   >= 1.8.1
-coverage >= 4.2
+tox==3.20.1
+coverage==5.3
 pytest-cov
 
 # -- PYTHON2/3 COMPATIBILITY: pypa/modernize
 # python-futurize
-modernize >= 0.5
+modernize==0.8.0
 
 # -- STATIC CODE ANALYSIS:
 pylint
